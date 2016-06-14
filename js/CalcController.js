@@ -10,6 +10,21 @@ var CalcController;
         this.previousNumber = "";
     }
 
+    CalcController.prototype.AjaxTest = function (){
+        //Send it!
+        console.log("Attempting to send data...");
+
+        $.ajax({
+            url: "/hello/",
+            type: 'GET',
+            //data: payload,
+            async: true,
+            success: function(result) {
+                console.log(result);
+            }
+        });
+    }
+
 	CalcController.prototype.CreateNumber = function(digit){
 		this.currentNumber += digit;
 		this.displayThis = this.currentNumber;
