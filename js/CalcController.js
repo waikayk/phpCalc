@@ -26,6 +26,8 @@ var CalcController;
 		
 		this.currentNumber = "";
 		this.mathAction = symbol;
+
+        $("#operation").html("Operation: " + symbol);
 	}
 
     CalcController.prototype.Equals = function(){
@@ -67,6 +69,9 @@ var CalcController;
 		this.currentNumber = "";
 		this.displayThis = "0";
 		this.mathAction = "";
+
+        $("#display").html(this.displayThis);
+        $("#operation").html("Operation: " + this.mathAction);
 	}
 
     $(document).ready(function() {
