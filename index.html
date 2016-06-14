@@ -1,0 +1,45 @@
+<!--?php
+require 'vendor/autoload.php';>-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/app.css">
+  <script type="text/javascript" src="js/lib/jquery-3.0.0.js"></script>
+  <script type="text/javascript" src="js/CalcController.js"></script>
+</head>
+<body>
+	<p style="text-align: center; font-family: arial;">CALCULATOR</p>
+    <div class="center">
+        <div id="display">0</div>
+        <div id="operation">Operation:</div>
+        <div>
+            <input type="button" value="7" class="btnStandard" onclick="CalcController.CreateNumber(7)">
+            <input type="button" value="8" class="btnStandard" onclick="CalcController.CreateNumber(8)">
+            <input type="button" value="9" class="btnStandard" onclick="CalcController.CreateNumber(9)">
+            <input type="button" value="*" class="btnStandard" onclick="CalcController.SetMathAction('*')">
+        </div>
+        <div>
+            <input type="button" value="4" class="btnStandard" onclick="CalcController.CreateNumber(4)">
+            <input type="button" value="5" class="btnStandard" onclick="CalcController.CreateNumber(5)">
+            <input type="button" value="6" class="btnStandard" onclick="CalcController.CreateNumber(6)">
+            <input type="button" value="/" class="btnStandard" onclick="CalcController.SetMathAction('/')">
+            <input type="button" value="c" class="btnVert" onclick="CalcController.ClearAll()">
+        </div>
+        <div>
+            <input type="button" value="1" class="btnStandard" onclick="CalcController.CreateNumber(1)">
+            <input type="button" value="2" class="btnStandard" onclick="CalcController.CreateNumber(2)">
+            <input type="button" value="3" class="btnStandard" onclick="CalcController.CreateNumber(3)">
+            <input type="button" value="+" class="btnStandard" onclick="CalcController.SetMathAction('+')">
+
+        </div>
+        <div>
+            <input type="button" value="0" class="btn0" onclick="CalcController.CreateNumber(0)">
+            <input type="button" value="." class="btnStandard" onclick="CalcController.CreateNumber('.')">
+            <input type="button" value="-" class="btnStandard" onclick="CalcController.SetMathAction('-')">
+            <input type="button" value="=" class="btnVert" onclick="CalcController.Equals()">
+        </div>
+    </div>
+</body>
+</html>
