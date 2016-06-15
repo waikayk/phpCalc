@@ -92,17 +92,17 @@ var CalcController;
             success: function(result) {
                 this.currentTotal = result;
 
-                this.previousMathAction = this.mathAction;
-                this.mathAction = "";
-                this.previousNumber = this.currentNumber;
-                this.currentNumber = "";
-
                 this.displayThis = this.currentTotal;
 
                 $("#display").html(this.displayThis);
                 CalcController.GetHistory();
             }
         });
+
+        this.previousMathAction = this.mathAction;
+        this.mathAction = "";
+        this.previousNumber = this.currentNumber;
+        this.currentNumber = "";
 	}
 
     CalcController.prototype.GetHistory = function(){

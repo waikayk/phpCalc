@@ -44,6 +44,7 @@ $app->post('/API/Divide/', function() use ($app, $pdo) {
 });
 
 //======================Other Utilities=========================================//
+
 $app->post('/insert/', function() use ($app, $pdo) {
     $operand1 = $_POST["operand1"];
     $operator = $_POST["operator"];
@@ -71,7 +72,7 @@ $app->post('/API/Clear/', function() use ($app, $pdo){
 
 $app->run();
 
-//Inserts this entry into HistoryTable:calcEntry
+//Inserts this entry into calc_db:historytable
 function insertEntry($operand1, $operator, $operand2){
     global $pdo;
     $statement = $pdo->prepare('INSERT INTO historytable (operand1, operator, operand2) VALUES (?, ?, ?)');

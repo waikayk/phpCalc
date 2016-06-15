@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="691a556b-450e-4682-974a-f8201d587d7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/www.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/CalcController.js" afterPath="$PROJECT_DIR$/js/CalcController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calcOp.php" afterPath="$PROJECT_DIR$/calcOp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,25 +28,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calcOp.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="calcOp.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calcOp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.028571" vertical-offset="1365" max-vertical-offset="2697">
-              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+            <state vertical-scroll-proportion="-0.35625" vertical-offset="1768" max-vertical-offset="2728">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <marker date="1466028123665" expanded="true" signature="1537:1563" placeholder="SELECT * FRO..historytable..." />
-                <marker date="1466028123665" expanded="true" signature="1792:1793" placeholder="SELECT * FRO..calcentry..." />
-                <marker date="1466028123665" expanded="true" signature="2045:2117" placeholder="INSERT INTO ..." />
+                <marker date="1466030944049" expanded="true" signature="1538:1564" placeholder="SELECT * FRO..historytable..." />
+                <marker date="1466030944049" expanded="true" signature="1793:1794" placeholder="SELECT * FRO..calcentry..." />
+                <marker date="1466030944049" expanded="true" signature="2044:2116" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalcController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/CalcController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3115578" vertical-offset="186" max-vertical-offset="4712">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3717" max-vertical-offset="4712">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -62,7 +55,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.37143" vertical-offset="496" max-vertical-offset="1581">
+            <state vertical-scroll-proportion="-34.54286" vertical-offset="0" max-vertical-offset="1581">
               <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
               <folding />
             </state>
@@ -72,8 +65,8 @@
       <file leaf-file-name="historytable.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/historytable.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="496">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.16" vertical-offset="0" max-vertical-offset="496">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -88,9 +81,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/calcEntry.sql" />
-        <option value="$PROJECT_DIR$/calcOp.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/CalcController.js" />
+        <option value="$PROJECT_DIR$/calcOp.php" />
       </list>
     </option>
   </component>
@@ -142,6 +135,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -167,6 +161,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="691a556b-450e-4682-974a-f8201d587d7f" name="Default" comment="" />
@@ -222,39 +219,39 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/historytable.sql">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="995">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-34.54286" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/historytable.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.37143" vertical-offset="496" max-vertical-offset="1581">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state vertical-scroll-proportion="-11.16" vertical-offset="0" max-vertical-offset="496">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/CalcController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4712">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calcOp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.028571" vertical-offset="1365" max-vertical-offset="2697">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        <state vertical-scroll-proportion="-0.35625" vertical-offset="1768" max-vertical-offset="2728">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <marker date="1466028123665" expanded="true" signature="1537:1563" placeholder="SELECT * FRO..historytable..." />
-            <marker date="1466028123665" expanded="true" signature="1792:1793" placeholder="SELECT * FRO..calcentry..." />
-            <marker date="1466028123665" expanded="true" signature="2045:2117" placeholder="INSERT INTO ..." />
+            <marker date="1466030944049" expanded="true" signature="1538:1564" placeholder="SELECT * FRO..historytable..." />
+            <marker date="1466030944049" expanded="true" signature="1793:1794" placeholder="SELECT * FRO..calcentry..." />
+            <marker date="1466030944049" expanded="true" signature="2044:2116" placeholder="INSERT INTO ..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/CalcController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3115578" vertical-offset="186" max-vertical-offset="4712">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
