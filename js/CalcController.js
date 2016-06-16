@@ -10,26 +10,6 @@ var CalcController;
         this.previousNumber = "";
     }
 
-    CalcController.prototype.AjaxTest = function (){
-        //Send it!
-        console.log("Attempting to send data...");
-
-        var payload = {};
-        payload["operand1"] = 1.4;
-        payload["operator"] = "*";
-        payload["operand2"] = 5.5;
-
-        $.ajax({
-            url: "/insert/",
-            type: 'POST',
-            data: payload,
-            async: true,
-            success: function(result) {
-               console.log(result);
-            }
-        });
-    }
-
 	CalcController.prototype.CreateNumber = function(digit){
 		this.currentNumber += digit;
 		this.displayThis = this.currentNumber;
@@ -63,22 +43,20 @@ var CalcController;
 		if(this.mathAction === "" || this.currentNumber === "") return;
 
         var ajaxURL = "";
-		if(this.mathAction === '+'){
-			//this.currentTotal = parseFloat(this.currentTotal) + parseFloat(this.currentNumber);
-            ajaxURL = "/API/Add/";
-		}
-		else if(this.mathAction === '-'){
-			//this.currentTotal = parseFloat(this.currentTotal) - parseFloat(this.currentNumber);
-            ajaxURL = "/API/Subtract/";
-		}
-		else if(this.mathAction === '*'){
-			//this.currentTotal = parseFloat(this.currentTotal) * parseFloat(this.currentNumber);
-            ajaxURL = "/API/Multiply/";
-		}
-		else if(this.mathAction === '/'){
-			//this.currentTotal = parseFloat(this.currentTotal) / parseFloat(this.currentNumber);
-            ajaxURL = "/API/Divide/";
-		}
+        switch(this.mathAction){
+            case '+':
+                ajaxURL = "/API/Add/";
+                break;
+            case '-':
+                ajaxURL = "/API/Subtract/";
+                break;
+            case '*':
+                ajaxURL = "/API/Multiply/";
+                break;
+            case '/':
+                ajaxURL = "/API/Divide/";
+                break;
+        }
 
         //Send it!
         var payload = {};
@@ -114,7 +92,7 @@ var CalcController;
                 result = JSON.parse(result);
                 var historyNice = "";
                 for(var i = result.length - 1; i >= 0; i--){
-                    historyNice += result[i].operand1+ " " + result[i].operator + " " + result[i].operand2+ "<br>";
+                    historyNice += result[i].operand1+ " " + result[i].operator + " " + result[i].operand2 + " = " + result[i].answer + "<br>";
                 }
 
                 $("#history").html(historyNice);
