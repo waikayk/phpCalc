@@ -68,6 +68,7 @@ var CalcController;
             type: 'POST',
             data: payload,
             success: function(result) {
+                //console.log(result);
                 this.currentTotal = result;
 
                 this.displayThis = this.currentTotal;

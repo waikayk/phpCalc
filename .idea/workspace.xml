@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="691a556b-450e-4682-974a-f8201d587d7f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/CalcController.js" afterPath="$PROJECT_DIR$/js/CalcController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calcOp.php" afterPath="$PROJECT_DIR$/calcOp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/historytable.sql" afterPath="$PROJECT_DIR$/historytable.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -31,25 +33,26 @@
       <file leaf-file-name="calcOp.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calcOp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40161106" vertical-offset="1731" max-vertical-offset="2860">
-              <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
+            <state vertical-scroll-proportion="2.0957944" vertical-offset="0" max-vertical-offset="2782">
+              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
               <folding>
-                <element signature="e#2225#3114#0#PHP" expanded="false" />
-                <marker date="1466202280713" expanded="true" signature="1773:1856" placeholder="INSERT INTO ..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2669" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2671" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2671" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2696" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2698" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2698" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2723" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2725" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2725" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2750" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2615:2761" placeholder="UPDATE histo..." />
-                <marker date="1466202280713" expanded="true" signature="2621:2635" placeholder="INSERT INTO ..." />
-                <marker date="1466202280713" expanded="true" signature="3149:3217" placeholder="INSERT INTO ..." />
-                <marker date="1466202280713" expanded="true" signature="3318:3344" placeholder="SELECT * FRO..historytable..." />
+                <marker date="1466459272201" expanded="true" signature="1632:2365" placeholder="update id = ..." />
+                <marker date="1466459272201" expanded="true" signature="1675:1750" placeholder="INSERT INTO ..." />
+                <marker date="1466459272201" expanded="true" signature="1675:1861" placeholder="INSERT INTO ..." />
+                <marker date="1466459272201" expanded="true" signature="1675:1936" placeholder="INSERT INTO ..." />
+                <marker date="1466459272201" expanded="true" signature="1675:1988" placeholder="INSERT INTO ..." />
+                <marker date="1466459272201" expanded="true" signature="1675:2004" placeholder="INSERT INTO ..." />
+                <marker date="1466459272201" expanded="true" signature="1675:2005" placeholder="INSERT INTO ..." />
+                <marker date="1466459272201" expanded="true" signature="1675:2210" placeholder="INSERT INTO ..." />
+                <marker date="1466459272201" expanded="true" signature="1763:1858" placeholder="SELECT (coal..." />
+                <marker date="1466459272201" expanded="true" signature="1764:1858" placeholder="SELECT(coale..." />
+                <marker date="1466459272201" expanded="true" signature="2006:2043" placeholder="UPDATE id = ..." />
+                <marker date="1466459272201" expanded="true" signature="2006:2086" placeholder="UPDATE id = ..." />
+                <marker date="1466459272201" expanded="true" signature="2006:2129" placeholder="UPDATE id = ..." />
+                <marker date="1466459272201" expanded="true" signature="2006:2172" placeholder="UPDATE id = ..." />
+                <marker date="1466459272201" expanded="true" signature="2006:2210" placeholder="UPDATE id = ..." />
+                <marker date="1466459272201" expanded="true" signature="2452:2478" placeholder="SELECT * FRO..historytable..." />
+                <marker date="1466459272201" expanded="true" signature="2452:2490" placeholder="SELECT * FRO..historytable..." />
               </folding>
             </state>
           </provider>
@@ -58,7 +61,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="1326">
+            <state vertical-scroll-proportion="-15.914286" vertical-offset="457" max-vertical-offset="1326">
               <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
               <folding />
             </state>
@@ -68,8 +71,8 @@
       <file leaf-file-name="historytable.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/historytable.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="442">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state vertical-scroll-proportion="-12.48" vertical-offset="0" max-vertical-offset="494">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -78,8 +81,8 @@
       <file leaf-file-name="CalcController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/CalcController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2476" max-vertical-offset="3380">
-              <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1384" max-vertical-offset="3406">
+              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -95,8 +98,8 @@
       <list>
         <option value="$PROJECT_DIR$/calcEntry.sql" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/historytable.sql" />
         <option value="$PROJECT_DIR$/js/CalcController.js" />
+        <option value="$PROJECT_DIR$/historytable.sql" />
         <option value="$PROJECT_DIR$/calcOp.php" />
       </list>
     </option>
@@ -134,6 +137,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,7 +148,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,9 +169,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -176,6 +176,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -209,13 +212,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -241,25 +244,76 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calcOp.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2860">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1466459272201" expanded="true" signature="1632:2365" placeholder="update id = ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1750" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1861" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1936" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1988" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2004" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2005" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2210" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1763:1858" placeholder="SELECT (coal..." />
+            <marker date="1466459272201" expanded="true" signature="1764:1858" placeholder="SELECT(coale..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2043" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2086" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2129" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2172" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2210" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2452:2478" placeholder="SELECT * FRO..historytable..." />
+            <marker date="1466459272201" expanded="true" signature="2452:2490" placeholder="SELECT * FRO..historytable..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="1326">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historytable.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="442">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/CalcController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2476" max-vertical-offset="3380">
+          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calcOp.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="2834">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
-            <element signature="e#2225#3114#0#PHP" expanded="false" />
-            <marker date="1466202280713" expanded="true" signature="1773:1856" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2669" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2671" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2671" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2696" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2698" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2698" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2723" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2725" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2725" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2750" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2761" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2621:2635" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="3149:3217" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="3318:3344" placeholder="SELECT * FRO..historytable..." />
+            <marker date="1466459272201" expanded="true" signature="1632:2365" placeholder="update id = ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1750" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1861" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1936" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1988" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2004" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2005" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2210" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1763:1858" placeholder="SELECT (coal..." />
+            <marker date="1466459272201" expanded="true" signature="1764:1858" placeholder="SELECT(coale..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2043" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2086" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2129" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2172" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2210" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2452:2478" placeholder="SELECT * FRO..historytable..." />
+            <marker date="1466459272201" expanded="true" signature="2452:2490" placeholder="SELECT * FRO..historytable..." />
           </folding>
         </state>
       </provider>
@@ -293,22 +347,23 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2288">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2225#3114#0#PHP" expanded="false" />
-            <marker date="1466202280713" expanded="true" signature="1773:1856" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2669" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2671" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2671" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2696" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2698" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2698" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2723" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2725" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2725" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2750" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2761" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2621:2635" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="3149:3217" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="3318:3344" placeholder="SELECT * FRO..historytable..." />
+            <marker date="1466459272201" expanded="true" signature="1632:2365" placeholder="update id = ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1750" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1861" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1936" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1988" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2004" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2005" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2210" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1763:1858" placeholder="SELECT (coal..." />
+            <marker date="1466459272201" expanded="true" signature="1764:1858" placeholder="SELECT(coale..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2043" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2086" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2129" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2172" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2210" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2452:2478" placeholder="SELECT * FRO..historytable..." />
+            <marker date="1466459272201" expanded="true" signature="2452:2490" placeholder="SELECT * FRO..historytable..." />
           </folding>
         </state>
       </provider>
@@ -339,49 +394,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="1326">
+        <state vertical-scroll-proportion="-15.914286" vertical-offset="457" max-vertical-offset="1326">
           <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/historytable.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="442">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/CalcController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2476" max-vertical-offset="3380">
-          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1384" max-vertical-offset="3406">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/historytable.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.48" vertical-offset="0" max-vertical-offset="494">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calcOp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40161106" vertical-offset="1731" max-vertical-offset="2860">
-          <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
+        <state vertical-scroll-proportion="2.0957944" vertical-offset="0" max-vertical-offset="2782">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
           <folding>
-            <element signature="e#2225#3114#0#PHP" expanded="false" />
-            <marker date="1466202280713" expanded="true" signature="1773:1856" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2669" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2671" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2671" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2696" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2698" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2698" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2723" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2725" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2725" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2750" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2615:2761" placeholder="UPDATE histo..." />
-            <marker date="1466202280713" expanded="true" signature="2621:2635" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="3149:3217" placeholder="INSERT INTO ..." />
-            <marker date="1466202280713" expanded="true" signature="3318:3344" placeholder="SELECT * FRO..historytable..." />
+            <marker date="1466459272201" expanded="true" signature="1632:2365" placeholder="update id = ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1750" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1861" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1936" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:1988" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2004" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2005" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1675:2210" placeholder="INSERT INTO ..." />
+            <marker date="1466459272201" expanded="true" signature="1763:1858" placeholder="SELECT (coal..." />
+            <marker date="1466459272201" expanded="true" signature="1764:1858" placeholder="SELECT(coale..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2043" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2086" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2129" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2172" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2006:2210" placeholder="UPDATE id = ..." />
+            <marker date="1466459272201" expanded="true" signature="2452:2478" placeholder="SELECT * FRO..historytable..." />
+            <marker date="1466459272201" expanded="true" signature="2452:2490" placeholder="SELECT * FRO..historytable..." />
           </folding>
         </state>
       </provider>

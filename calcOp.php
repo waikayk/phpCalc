@@ -62,53 +62,31 @@ $app->run();
 function insertEntry($operand1, $operator, $operand2, $answer){
     global $pdo;
 
-    //check history and see if the table is bigger than x. Let's say, x = 5.
-    $history = getHistory();
+    $statement = $pdo->prepare(
+        "INSERT INTO historytable (id, modulo, operand1, operator, operand2, answer)
+            SELECT
+              (coalesce(max(id), -1) + 1),
+              (coalesce(max(id), -1) + 1) mod 5,
+              :operand1,
+              :operator,
+              :operand2,
+              :answer
+            FROM historytable ON duplicate KEY UPDATE
+              id = VALUES(id),
+              operand1 = VALUES(operand1),
+              operator = VALUES(operator),
+              operand2 = VALUES(operand2),
+              answer = VALUES(answer);"
+    );
 
-    $statement = $pdo->prepare('INSERT INTO historytable (operand1, operator, operand2, answer) VALUES (?, ?, ?, ?)');
-
-    //Limit the table to 5 entries
-    if(count($history) >= 5) {
-        clearHistory();
-        for($i = 1; $i < 5; $i++) {
-            $statement->execute(array(
-                $history[$i]["operand1"],
-                $history[$i]["operator"],
-                $history[$i]["operand2"],
-                $history[$i]["answer"]
-            ));
-        }
-        /*
-        for($i = 1; $i < 4; $i++) {
-            $newID = $i + 1; //Note: MySql table id start from 1, arrays start from 0
-            $newOperand1 = $history[$newID]['operand1'];
-            $newOperator = $history[$newID]['operator'];
-            $newOperand2 = $history[$newID]['operand2'];
-            $newAnswer = $history[$newID]['answer'];
-
-            $statement = $pdo->prepare("UPDATE historytable SET"
-                . "operand1 = '$newOperand1', operator = '$newOperator', operand2 = '$newOperand2', answer = '$newAnswer'"
-                . "WHERE id = '$newID';"
-            );
-            $statement->execute();
-        }
-        $statement = $pdo->prepare("UPDATE historytable SET"
-            . "operand1 = '$operand1', operator = '$operator', operand2 = '$operand2', answer = '$answer'"
-            . "WHERE id = 1;"
-        );
-        $statement->execute();
-        */
-    }
-
-    //Insert new entry
-    $statement->execute(array($operand1, $operator, $operand2, $answer));
+    $statement->execute(array(":operand1" => $operand1, ":operator" => $operator, ":operand2" => $operand2, ":answer" => $answer));
 
     return $statement;
 }
 
 function getHistory(){
     global $pdo;
-    $statement = $pdo->prepare('SELECT * FROM historytable');
+    $statement = $pdo->prepare('SELECT * FROM historytable ORDER BY id');
     $statement->execute();
     $results = $statement -> fetchAll(PDO::FETCH_ASSOC);
 
