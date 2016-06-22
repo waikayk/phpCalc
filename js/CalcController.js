@@ -62,6 +62,7 @@ var CalcController;
         var payload = {};
         payload["operand1"] = parseFloat(this.currentTotal);
         payload["operand2"] = parseFloat(this.currentNumber);
+        //payload["time"] = new Date().getTime();
 
         $.ajax({
             url: ajaxURL,
@@ -91,9 +92,14 @@ var CalcController;
             async: true,
             success: function(result){
                 result = JSON.parse(result);
+
                 var historyNice = "";
                 for(var i = result.length - 1; i >= 0; i--){
-                    historyNice += result[i].operand1+ " " + result[i].operator + " " + result[i].operand2 + " = " + result[i].answer + "<br>";
+                    //Equation
+                    historyNice += result[i].operand1+ " " + result[i].operator + " " + result[i].operand2 + " = " + result[i].answer;
+
+                    //Time Since Entry
+                    historyNice += " (" + result[i].tStamp + ")<br>";
                 }
 
                 $("#history").html(historyNice);
@@ -118,6 +124,39 @@ var CalcController;
             }
         });
 	}
+
+    //http://stackoverflow.com/questions/6108819/javascript-timestamp-to-relative-time-eg-2-seconds-ago-one-week-ago-etc-best
+    function timeDifference(previous) {
+        var current = new Date().getTime();
+        var sPerMinute = 60 * 1000;
+        var sPerHour = sPerMinute * 60;
+        var sPerDay = sPerHour * 24;
+        var sPerMonth = sPerDay * 30;
+        var sPerYear = sPerDay * 365;
+
+        var elapsed = current - previous;
+
+        console.log(current + " " + previous + " " + elapsed);
+
+        if (elapsed < sPerMinute) {
+            return elapsed/1000 + ' seconds ago';
+        }
+        else if (elapsed < sPerHour) {
+            return Math.round(elapsed/sPerMinute) + ' minutes ago';
+        }
+        else if (elapsed < sPerDay ) {
+            return Math.round(elapsed/sPerHour ) + ' hours ago';
+        }
+        else if (elapsed < sPerMonth) {
+            return 'approximately ' + Math.round(elapsed/sPerDay) + ' days ago';
+        }
+        else if (elapsed < sPerYear) {
+            return 'approximately ' + Math.round(elapsed/sPerMonth) + ' months ago';
+        }
+        else {
+            return 'approximately ' + Math.round(elapsed/sPerYear ) + ' years ago';
+        }
+    }
 
     $(document).ready(function() {
         window.CalcController = new CalcController();

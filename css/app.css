@@ -51,3 +51,7 @@ body{
     height: 100px;
     background: black;
 }
+
+#history{
+    width: 300px;
+}

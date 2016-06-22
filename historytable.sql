@@ -8,6 +8,7 @@ CREATE TABLE historytable(
   operator      VARCHAR(1) NOT NULL,
   operand2     DECIMAL (10, 2) NOT NULL,
   answer         DECIMAL (10, 2) NOT NULL,
+  tStamp                  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
   PRIMARY KEY (id),
   UNIQUE KEY (modulo)
